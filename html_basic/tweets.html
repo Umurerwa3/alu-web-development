@@ -1,22 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-        <head>
-                <meta charset="UTF-8">
-                <title>HTML Basics</title>
-        </head>
-        <body>
-		<h1>Embedded Tweet</h1>
-		<h2>check out this tweet: </h2>
-		<!--link to the tweet -->
-		<p>
-			<a href="https://twitter.com/TwitterDev/status/1293593516040261632" target="_blank">
-			View the tweet on tweeter
-			</a>
-		</p>
-		<!--link back to the homepage -->
-		<p> 
-			<a href="index.htm">Go back to the homepage </a>
-		</p>
-        </body>
+<head>
+    <meta charset="UTF-8">
+    <title>Tweets</title>
+</head>
+<body>
+    <!-- Header with navigation links -->
+    <header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
+        </ul>
+    </header>
 
+    <!-- Main content of the page -->
+    <main>
+        <!-- Article with the primary content -->
+        <article>
+            <h1>Embedded Tweet</h1>
+            <h2>Check out this Tweet:</h2>
+
+            <!-- Static Image of the Tweet -->
+            <a href="https://twitter.com/TwitterDev/status/1293593516040261632" target="_blank">
+                <img src="path_to_your_tweet_screenshot.png" alt="Tweet from TwitterDev">
+            </a>
+
+            <!-- Link back to the homepage -->
+            <p>
+                <a href="index.html">Go back to the homepage</a>
+            </p>
+        </article>
+
+        <!-- Aside section with placeholder text -->
+        <aside>
+            <p>placeholder to add comment thread later</p>
+        </aside>
+    </main>
+
+    <!-- Footer with author information -->
+    <footer>
+        <p>Made by Your Name - <a href="https://example.com" target="_blank">here</a></p>
+    </footer>
+</body>
 </html>

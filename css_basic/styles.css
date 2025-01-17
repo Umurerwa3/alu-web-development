@@ -27,3 +27,46 @@ header, footer {
     color: white;                
         
 }
+/* Article Styling */
+article {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Aside Styling */
+aside {
+    background-color: #e9ecef;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Links inside the article */
+article a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+/* * Logo Styling */ */
+.logo {
+    list-style-type: none;  /* Remove bullet point */
+    padding: 0;             /* Remove padding */
+    margin: 0
+
+}
+
+.logo img{
+    width: 60px;
+    height: auto;
+    margin-right: 0px;
+    border-radius: 70%; /* Circular border (if the logo is square) */
+    border: 3px solid #0044cc; /* Blue border */
+    padding: 0px; /* Space between logo and border */
+}
